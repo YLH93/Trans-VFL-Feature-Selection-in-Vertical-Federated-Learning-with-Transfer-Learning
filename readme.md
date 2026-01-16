@@ -40,13 +40,3 @@ Trans-VFL has been validated on both synthetic benchmarks and real-world healthc
 | [cite_start]**Genomic HDLSS** ($N$=200) [cite: 235, 244] | Accuracy | **88.4%** | N/A | **500 / 5000** (Perfect Match) |
 
 *Results derived from Table 1, Table 2, and Table 3 of the paper.*
-
-## 🛠️ Installation
-
-```bash
-# Clone the repository
-git clone [https://github.com/YLH93/Trans-VFL.git](https://github.com/YLH93/Trans-VFL.git)
-cd Trans-VFL
-
-# Install dependencies
-pip install -r requirements.txt
