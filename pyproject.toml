@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trans-vfl-feature-selection"
+version = "0.1.0"
+description = "Communication-efficient learned feature selection for vertical federated learning."
+readme = "readme.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[tool.setuptools.packages.find]
+include = ["trans_vfl*"]
